@@ -15,7 +15,7 @@
 .logo-photo{
     margin-top: 15px;
     width: 80px;
-    height: 30px;
+    height: 25px;
     padding: 15px;
     align-items: center;
 }
@@ -39,4 +39,54 @@
 }
 .items:hover{
     color:#7da38f;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(images/background.png),linear-gradient(45deg,#0a0909,#333333);
+    height: 100vh;
+    color: white;
+    background-position:center ;
+    background-size:cover ;
+
+}
+.img{
+    width: 350px;
+    height: 280px;
+}
+.title{
+    font-size: 43px;
+    padding: 15px 10px;
+}
+.description{
+    font-size: 20px;
+    margin:15px 10px;
+}
+.btn{
+    margin: 10px 10px;
+    background-color: red;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+.about-title{
+    text-align: center;
+    font-size: 43px;
+    margin: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.photo{
+    width: 350px;
+    height: 280px;
+}
+.about-description{
+    
 }
